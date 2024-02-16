@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    flex-grow: 1; /* Allow the section and footer to grow to fill the available space */
+    background-color: #333; /* Dark color for the footer background */
+    color: white; /* Text color for the footer */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-detail {
+    font-weight: bold;
+    color: #6EB6FF; /* Color for specific contact details (e.g., email, phone) */
+}
