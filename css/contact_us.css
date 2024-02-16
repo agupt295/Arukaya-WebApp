@@ -5,7 +5,7 @@ body {
 
 footer {
     flex-grow: 1; /* Allow the section and footer to grow to fill the available space */
-    background-color: #333; /* Dark color for the footer background */
+    background-color: #fcf6f6; /* Dark color for the footer background */
     color: white; /* Text color for the footer */
     padding: 20px;
     text-align: center;
