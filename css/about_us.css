@@ -1,26 +1,22 @@
-#about {
-    position: relative;
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.image-container {
-    position: relative;
-    display: inline-block;
-}
+  .about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
 
-.text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white; /* Set text color */
-}
+  .about-us-image {
+    max-width: 30%;
+    margin-right: 20px;
+  }
 
-.text-overlay h2 {
-    font-size: 2em; /* Adjust the font size as needed */
-    margin-bottom: 10px;
-}
-
-.text-overlay p {
-    font-size: 1.2em; /* Adjust the font size as needed */
-}
+  .about-us-text {
+    max-width:55%;
+  }
