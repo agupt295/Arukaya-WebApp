@@ -5,4 +5,20 @@
     text-align: center;
     margin-left: 10px;
   }
-  
+
+.discount {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+
+.discount::before {
+  /* position: absolute; Position the pseudo-element absolutely relative to the paragraph */
+  top: 0; /* Set the top position to align with the top of the paragraph */
+  /* left: -10px; Adjust the left position to position the strip to the left of the paragraph */
+  width: 10px; /* Set the width of the strip */
+  height: 100%; /* Set the height of the strip to match the paragraph height */
+  /* background-color: inherit; Inherit background color from the paragraph */
+}

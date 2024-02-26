@@ -1,0 +1,17 @@
+.card {
+    position: relative; /* Make sure the ribbon is positioned relative to the card */
+    overflow: hidden; /* Ensure the ribbon doesn't overflow from the card */
+}
+
+.card::before {
+    content: "DISCOUNT"; /* Create the pseudo-element */
+    position: absolute; /* Position the pseudo-element absolutely relative to the card */
+    top: -10px; /* Adjust the top position to place the ribbon where you want */
+    left: 0; /* Adjust the left position to place the ribbon where you want */
+    width: 0; /* Set width to 0 */
+    height: 0; /* Set height to 0 */
+    border-style: solid; /* Set the border style */
+    border-width: 0 50px 50px 0; /* Adjust border width to control the size and shape of the ribbon */
+    border-color: transparent red transparent transparent; /* Set border color */
+}
+  
