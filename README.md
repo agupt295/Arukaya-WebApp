@@ -1,4 +1,4 @@
-# Arukaya-WebApp
+# Arukaya- Static Web Application
 
 Welcome to the Arukaya-WebApp repository. This project is a static website built for the Arukaya: Keep Shining company. The website is developed using HTML, CSS, and Bootstrap to create a responsive and visually appealing online presence for the company.
 
