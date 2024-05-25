@@ -21,4 +21,4 @@ Arukaya-WebApp is designed to provide information about the Arukaya: Keep Shinin
 
 ## URL
 
-The website is hosted on AWS and can be accessed at the following URL: 
+The website is hosted on AWS and can be accessed at the following URL: http://arukaya-hosting.s3-website.us-east-2.amazonaws.com
